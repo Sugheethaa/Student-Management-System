@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="363dp"
+            android:layout_height="240dp"
+            android:layout_weight="1"
+            android:src="@drawable/frag1a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="490dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="What are the rules and Regulations?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="1. The conduct of each student should be satisfactory." />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="2. Students should wear clean and simple dress. " />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="435dp"
+            android:layout_height="68dp"
+            android:text="3. They should be punctual to classes and attend to their work with devotion. A student cannot leave the class room at his own will or enter the class in session as he/she pleases." />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:text="4. Damage of any kind, done to the College property will be viewed seriously. The cost of the same will be recovered from the erring students. Students should maintain the College property as their own. This refers to the maintenance of college buildings, furniture, equipment, electrical fittings, library books etc." />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="5. Tampering with electrical fitting is not only dangerous but also open to appropriate action." />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="6. Students should acquaint themselves with the notifications put up on the Notice - Board." />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Profile"
+        android:id="@+id/menuProfile"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/menuSettings"/>
+    <item
+        android:title="More Options"
+        android:id="@+id/menuMoreOptions">
+
+        <menu>
+            <item
+                android:title="Devices"
+                android:id="@+id/menuDevices"/>
+            <item
+                android:title="Logout"
+                android:id="@+id/menuLogout"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="History"
+        android:id="@+id/menuHistory"/>
+    <item
+        android:title="App Care"
+        android:id="@+id/menuAppCare"/>
+    <item
+        android:title="Exit"
+        android:id="@+id/menuExit"/>
+
+</menu>
